@@ -9,7 +9,7 @@ repo_url: https://github.com/docker/getting-started
 edit_uri: ""
 
 # Copyright
-copyright: 'Copyright &copy; 2020-2022 Docker'
+copyright: "Copyright &copy; 2020-2022 Docker"
 
 # Configuration
 theme:
@@ -22,7 +22,7 @@ theme:
     text: Roboto
     code: Roboto Mono
   favicon: assets/images/favicon.png
-  logo: 'images/docker-labs-logo.svg'
+  logo: "images/docker-labs-logo.svg"
 
 extra_css:
   - css/styles.css
