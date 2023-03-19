@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: response-app-deployment
+  labels:
+    app: response-app
+spec:
+  selector:
+    matchLabels:
+      app: response-app
+  template:
+    metadata:
+      labels:
+        app: response-app
+    spec:
+      containers:
+      - name: response-app
+        image: response-app
+        imagePullPolicy: Never
+        ports:
+        - name: http
+          containerPort: 3000
+          protocol: TCP
